@@ -24,6 +24,15 @@ header {
   padding-bottom: 50px;
 }
 
+header img {
+  transition: .3s;
+}
+
+header img:hover {
+  opacity: 0.7;
+  transition: .3s;
+}
+
 main {
   width: 80%;
   margin: auto;
@@ -65,4 +74,31 @@ section p {
 video {
     max-width: 100%;
     height: auto;
+}
+
+button {
+  background-color: #000000;
+  border: none;
+  width: 15%;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 100px;
+  font-family: HelveticaNeue;
+  font-weight: normal;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  transition: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #464646;
+  transition: .3s;
 }
