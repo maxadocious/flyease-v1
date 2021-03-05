@@ -1,23 +1,42 @@
 @font-face {
   font-family: Futura;
-  font-weight: normal;
-  src: url('fonts/Futura.ttc') format('TTC');
+  src: url(fonts/Futura.otf);
 }
 
 @font-face {
-  font-family: HelveticaNeue;
-  font-weight: normal;
-  src: url('fonts/HelveticaNeue.ttc') format('TTC');
+  font-family: Trade;
+  src: url(fonts/Trade.ttf);
 }
 
-body {
+@font-face {
+  font-family: Neue;
+  src: url(fonts/Neue.ttf);
+}
 
+@font-face {
+  font-family: NeueBold;
+  src: url(fonts/NeueBold.ttf);
+}
+
+.splash {
+  background-image: url(assets/flyease.gif);
+  background-size: cover;
+}
+
+.splash a {
+  font-family: Futura;
+  letter-spacing: -1px;
+  line-height: 65px;;
+  justify-content: center;
+  font-size: 72px;
+  text-decoration: none;
+  color: #fff;
 }
 
 header {
   width: 80%;
   margin: auto;
-  font-family: HelveticaNeue;
+  font-family: NeueBold;
   font-size: 18px;
   text-decoration: none;
   padding-top: 50px;
@@ -46,13 +65,13 @@ section {
 
 section h3 {
   font-size: 24px;
-  font-family: HelveticaNeue;
+  font-family: NeueBold;
   font-weight: bold;
 }
 
 section p {
   font-size: 16px;
-  font-family: HelveticaNeue;
+  font-family: Neue;
   font-weight: normal;
   line-height: 25px;
 }
@@ -87,7 +106,7 @@ button {
   font-size: 18px;
   cursor: pointer;
   border-radius: 100px;
-  font-family: HelveticaNeue;
+  font-family: Neue;
   font-weight: normal;
   align-items: center;
   margin-top: 50px;
