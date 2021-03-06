@@ -132,3 +132,12 @@ button:hover {
   background-color: #464646;
   transition: .3s;
 }
+
+.demo {
+  max-width: 50%;
+  height: auto;
+}
+
+.info {
+  padding-right: 100px;
+}
