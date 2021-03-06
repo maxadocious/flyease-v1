@@ -25,10 +25,9 @@
 
 .splash a {
   font-family: Futura;
-  text-align: center;
-  letter-spacing: -1px;
-  line-height: 65px;
-  font-size: 72px;
+  letter-spacing: -3px;
+  line-height: 80px;
+  font-size: 95px;
   text-decoration: none;
   color: #fff;
   position: absolute;
@@ -46,18 +45,23 @@
 header {
   width: 80%;
   margin: auto;
-  font-family: NeueBold;
-  font-size: 18px;
-  text-decoration: none;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-header img {
+.dotcom {
+  float: right;
+}
+
+header a {
+  font-family: NeueBold;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
   transition: .3s;
 }
 
-header img:hover {
+header a:hover {
   opacity: 0.7;
   transition: .3s;
 }
@@ -76,7 +80,7 @@ section {
 section h3 {
   font-size: 24px;
   font-family: NeueBold;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 section p {
