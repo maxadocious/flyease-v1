@@ -108,14 +108,15 @@ video {
 button {
   background-color: #000000;
   border: none;
-  width: 15%;
-  color: white;
-  padding: 20px;
-  font-size: 18px;
-  cursor: pointer;
-  border-radius: 100px;
   font-family: Neue;
   font-weight: normal;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  width: 15%;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 100px;
   margin-top: 50px;
   margin-bottom: 50px;
   transition: .3s;
